@@ -3,47 +3,46 @@
     <div>
       <ul>
         <li>Trophy Clicker TM</li>
-        <li>Ikonky</li>
       </ul>
     </div>
-    <div>
-      <ul>
+    <nav>
+      <ul class="desktop">
         <li>
           <router-link :to="{ name: 'stats' }"
-            ><img src="./assets/icons/graph.png" alt="Statistics icon"
+            ><img class="nav-icon" src="./assets/icons/graph.png" alt="Statistics icon"
           /></router-link>
         </li>
         <li>
           <router-link :to="{ name: 'settings' }">
-            <img src="./assets/icons/settings-1.png" alt="Shop icon" />
+            <img class="nav-icon" src="./assets/icons/settings-1.png" alt="Shop icon" />
           </router-link>
         </li>
       </ul>
 
       <!-- Mobilní verze -->
-      <ul>
+      <ul class="mobile-nav">
         <li>
           <router-link :to="{ name: 'stats' }"
-            ><img src="./assets/icons/graph.png" alt="Statistics icon"
+            ><img class="nav-icon" src="./assets/icons/graph.png" alt="Statistics icon"
           /></router-link>
         </li>
         <li>
           <router-link :to="{ name: 'games' }">
-            <img src="./assets/icons/games.png" alt="Games icon" />
+            <img class="nav-icon" src="./assets/icons/games.png" alt="Games icon" />
           </router-link>
         </li>
         <li>
           <router-link :to="{ name: 'shop' }">
-            <img src="./assets/icons/shop.png" alt="Shop icon" />
+            <img class="nav-icon" src="./assets/icons/shop.png" alt="Shop icon" />
           </router-link>
         </li>
         <li>
           <router-link :to="{ name: 'settings' }">
-            <img src="./assets/icons/settings-1.png" alt="Shop icon" />
+            <img class="nav-icon" src="./assets/icons/settings-1.png" alt="Shop icon" />
           </router-link>
         </li>
       </ul>
-    </div>
+    </nav>
   </header>
 </template>
 
@@ -51,4 +50,6 @@
 import { RouterLink, RouterView } from "vue-router";
 </script>
 
-<style scoped></style>
+<style scoped>
+
+</style>
