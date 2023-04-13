@@ -74,6 +74,7 @@
     <GamesArea />
     <Shop />
   </main>
+  
 </template>
 
 <script setup>

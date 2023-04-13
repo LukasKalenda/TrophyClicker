@@ -7,7 +7,7 @@
       <p>za sekundu: 4,256</p>
     </aside>
 
-    <section>
+    <section class="">
         <img src="../assets/icons/trophy-main.png" alt="Main Trophy/Cup">
     </section>
   </div>
@@ -17,4 +17,12 @@
 
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.trophy {
+    border: 3px solid black;
+}
+section img {
+    width: 256px;
+    height: 256px;
+}
+</style>
