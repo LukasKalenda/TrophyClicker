@@ -1,0 +1,18 @@
+.trophy {
+    text-align: center;
+    .text-back {
+        margin-top: 30px;
+        span {
+            
+            padding: 10px 30px;
+            background-color: rgba(47, 65, 42, 0.5);
+            border-radius: 20px;
+        }
+    }
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+}

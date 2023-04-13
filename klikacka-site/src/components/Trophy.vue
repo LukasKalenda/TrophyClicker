@@ -1,19 +1,21 @@
 <template>
   <div class="trophy">
-    <h2>Továrna na pohárky</h2>
+    <div class="text-back"><span>Továrna na pohárky</span></div>
     <aside>
-      <p>87000</p>
-      <p>tisíc pohárků</p>
-      <p>za sekundu: 4,256</p>
+      <span id="points">{{ counterStore.count }}</span>
+      <span id="earned">tisíc pohárků</span>
+      <span id="earned-seconds">za sekundu: 4,256</span>
     </aside>
 
     <section class="">
-        <img src="../assets/icons/trophy-main.png" alt="Main Trophy/Cup">
+        <img @click="counterStore.count++" src="../assets/icons/trophy-main.png" alt="Main Trophy/Cup">
     </section>
   </div>
 </template>
 
 <script setup>
+import { useCounterStore } from "../stores/counter.js";
+const counterStore = useCounterStore();
 
 </script>
 
