@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <div class="trophy">
     <h2>Továrna na pohárky</h2>
     <aside>
       <p>87000</p>
@@ -8,11 +8,13 @@
     </aside>
 
     <section>
-      <img src="../assets/icons/trophy-main.png" alt="Main Trophy/Cup" />
+        <img src="../assets/icons/trophy-main.png" alt="Main Trophy/Cup">
     </section>
-  </main>
+  </div>
 </template>
 
-<script setup></script>
+<script setup>
+
+</script>
 
 <style lang="scss" scoped></style>

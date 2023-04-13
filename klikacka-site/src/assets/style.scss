@@ -57,3 +57,33 @@ header {
         cursor: pointer;
     }
 }
+
+.trophy {
+
+}
+
+.gamesArea {
+
+}
+
+.shop {
+
+
+    nav {
+        ul {
+            display: flex;
+            li {
+                padding: 10px;
+                background-color: #7C7C7C;
+                border: 2px solid #000;
+                border-radius: 40px;
+
+                img {
+                    height: 40px;
+                    width: 40px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
