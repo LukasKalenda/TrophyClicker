@@ -8,7 +8,7 @@
     </aside>
 
     <section class="">
-        <img @click="counterStore.count++" src="../assets/icons/trophy-main.png" alt="Main Trophy/Cup">
+        <img @click="counterStore.increment" src="../assets/icons/trophy-main.png" alt="Main Trophy/Cup">
     </section>
   </div>
 </template>

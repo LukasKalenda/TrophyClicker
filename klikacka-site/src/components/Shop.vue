@@ -13,14 +13,14 @@
 
     <div class="divider"></div>
 
-    <section class="items">
+    <section class="items" @click="buyItem">
       <div class="item-background">
         <div class="item-icon">
           <img src="../assets/sports-icon/basket.png" alt="" />
         </div>
         <div class="game-text">
           <p class="game-title">Footbal</p>
-          <p class="game-cost">35k</p>
+          <p class="game-cost">{{ shopStore.fotball}}k</p>
         </div>
         <div class="items-earned">15</div>
       </div>
@@ -28,6 +28,14 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { useShopStore } from '../stores/shop';
+const shopStore = useShopStore();
+
+const buyItem = () => {
+  shopStore.buyItem();
+};
+
+</script>
 
 <style lang="scss" scoped></style>
