@@ -1,0 +1,53 @@
+.shop {
+    div h3 {
+        text-align: center;
+    }
+
+    nav {
+        ul {
+            display: flex;
+            justify-content: space-between;
+
+            li {
+                padding: 10px;
+                background-color: #7C7C7C;
+                border: 2px solid #000;
+                border-radius: 40px;
+
+                img {
+                    height: 40px;
+                    width: 40px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    section.items {
+        .item-background {
+            background-image: url("./backgrounds/item-background.png");
+            background-size: cover;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 10px;
+
+            .game-text {
+                display: flex;
+                flex-direction: column;
+
+                .game-cost {
+
+                    &::before {
+                        content: "";
+                    }
+                }
+            }
+
+            .items-earned {
+                padding-right: 5px;
+
+            }
+        }
+    }
+}
