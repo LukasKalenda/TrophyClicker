@@ -6,8 +6,25 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      // component: HomeView
+      // component: HomeVew
     },
+    {
+      path: "/",
+      name: "stats",
+    },
+    {
+      path: "/",
+      name: "shop",
+    },
+    {
+      path: "/",
+      name: "games",
+    },
+    {
+      path: "/",
+      name: "settings",
+    },
+    
     {
       path: '/about',
       name: 'about',
