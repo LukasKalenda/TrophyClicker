@@ -50,16 +50,5 @@
     font-weight: 200;
     font-size: 16px;
   }
-  .closing-bar{
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-image: url("../assets/icons/close.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 20px;
-    height: 20px;
-    margin: 5px;
-  }
 }
 </style>

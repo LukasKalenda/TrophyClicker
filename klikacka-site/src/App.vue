@@ -4,7 +4,7 @@
     <header>
       <div>
         <ul>
-          <li>Trophy Clicker TM</li>
+          <h1>Trophy Clicker</h1>
         </ul>
       </div>
       <nav>

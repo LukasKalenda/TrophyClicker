@@ -2,21 +2,6 @@
     display: none;
 }
 
-@media screen and (max-width: 768px) {
-    .mobile-nav {
-        display: flex;
-
-        .nav-icon {
-            width: 20px;
-            height: 20px;
-        }
-    }
-
-    .desktop {
-        display: none;
-    }
-}
-
 .absolute {
     position: static;
     bottom: 0;
@@ -49,9 +34,17 @@
             display: flex;
             list-style: none;
 
-            li {
+            h1 {
                 padding: 0 10px;
-
+                &::before {
+                    content: "";
+                    // position: absolute;
+                    // background-image: url("../assets/icons/trophy-main.png");
+                    // background-size: cover;
+                    // width: 20px;
+                    // height: 20px;
+                    // margin-right: 5px;
+                }
                 a {
                     text-decoration: none;
                     color: #fff;
@@ -74,6 +67,9 @@
         }
 
         .nav-icon {
+            border: 2px solid #bdacac;
+            padding: 5px;
+            border-radius: 50%;
             width: 40px;
             height: 40px;
             cursor: pointer;
@@ -127,3 +123,23 @@ footer {
 
 //Cards
 @import "./cards.scss";
+
+
+@media screen and (max-width: 768px) {
+    ul.mobile-nav {
+        display: flex;
+
+        .nav-icon {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    ul.desktop {
+        display: none;
+    }
+
+    .shop, .gamesArea {
+        display: none;
+    }
+}
