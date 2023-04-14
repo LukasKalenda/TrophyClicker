@@ -13,7 +13,7 @@
 
     <div class="divider"></div>
 
-    <section class="items" v-for="item in shopStore.items" :key="item" @click="">
+    <section class="items" v-for="item in shopStore.items" :key="item">
       <div class="item-background"> {{ item.price }}
         <div class="item-icon">
           <img src="../assets/sports-icon/basket.png" alt="" />

@@ -75,8 +75,10 @@
     <GamesArea />
     <Shop />
   </main>
+  <!-- FOOTER + CARDS -->
   <footer>
     <Cards />
+    <Achievments />
   </footer>
 </template>
 
@@ -89,6 +91,7 @@ import GamesArea from "./components/GamesArea.vue";
 import Shop from "./components/Shop.vue";
 
 import Cards from "./components/Cards.vue";
+import Achievments from "./components/Achievments.vue";
 </script>
 
 <style scoped></style>

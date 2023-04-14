@@ -4,6 +4,7 @@
       <article class="card">
         <header class="card-header">
           <div class="attack lvl-back">7</div>
+          <div class="card-position">Útočník</div>
           <div class="defense lvl-back">8</div>
         </header>
 
@@ -16,11 +17,13 @@
           </svg> -->
 
           <div class="author-name">
-            <div class="player-name">Author</div>
+            <div class="player-name">Jarga Jágr</div>
           </div>
-          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+          <p class="player-text">
+            Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve
+            štychu
+          </p>
         </div>
-
       </article>
       <article class="card">
         <header class="card-header">
@@ -39,9 +42,11 @@
           <div class="author-name">
             <div class="player-name">Author</div>
           </div>
-          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+          <p class="player-text">
+            Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve
+            štychu
+          </p>
         </div>
-
       </article>
     </div>
   </section>

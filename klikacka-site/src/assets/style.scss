@@ -22,6 +22,18 @@
     bottom: 0;
 }
 
+.closing-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url("../assets/icons/close.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
 .header {
 
 
@@ -97,6 +109,11 @@ main {
         border-image: url("../assets/backgrounds/clay-border.png");
         border-image-repeat: repeat;
     }
+}
+
+footer {
+    display: flex;
+    flex-direction: column
 }
 
 //Trophy
