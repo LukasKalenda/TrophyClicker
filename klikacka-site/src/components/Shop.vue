@@ -13,14 +13,14 @@
 
     <div class="divider"></div>
 
-    <section class="items" @click="buyItem">
-      <div class="item-background">
+    <section class="items" v-for="item in shopStore.items" :key="item" @click="">
+      <div class="item-background"> {{ item.price }}
         <div class="item-icon">
           <img src="../assets/sports-icon/basket.png" alt="" />
         </div>
         <div class="game-text">
-          <p class="game-title">Footbal</p>
-          <p class="game-cost">{{ shopStore.fotball}}k</p>
+          <p class="game-title">{{ item.title }}</p>
+          <p class="game-cost">{{ }}k</p>
         </div>
         <div class="items-earned">15</div>
       </div>
@@ -32,9 +32,6 @@
 import { useShopStore } from '../stores/shop';
 const shopStore = useShopStore();
 
-const buyItem = () => {
-  shopStore.buyItem();
-};
 
 </script>
 
