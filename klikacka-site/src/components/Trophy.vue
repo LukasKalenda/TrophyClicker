@@ -8,7 +8,7 @@
     </aside>
 
     <section>
-        <img @click="counterStore.increment" src="../assets/icons/trophy-main.png" alt="Main Trophy/Cup">
+        <img @click="counterStore.click" src="../assets/icons/trophy-main.png" alt="Main Trophy/Cup">
     </section>
   </div>
 </template>
@@ -21,11 +21,5 @@ const counterStore = useCounterStore();
 </script>
 
 <style lang="scss" scoped>
-.trophy {
-    border: 3px solid black;
-}
-section img {
-    width: 256px;
-    height: 256px;
-}
+
 </style>
