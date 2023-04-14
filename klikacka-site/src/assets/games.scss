@@ -1,17 +1,27 @@
 .gamesArea {
-    .clay::before {
+    position: relative;
+    padding: 0 10px;
+    border-right: 15px solid #14e02f;
+
+    .clay::after {
+        position: absolute;
+        content: "";
         background-image: url("../assets/backgrounds/clay-border.png");
-        
+        background-size: cover;
+        width: 100%;
+        height: 12px;
+
     }
+
     section {
         padding: 10px;
-            height: 145px;
-            background-image: url("../assets/game-areas/vector-football-soccer-field.png");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            display: flex;
-            align-items: center;
-            justify-content: space-between
+        height: 145px;
+        background-image: url("../assets/game-areas/vector-football-soccer-field.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between
     }
 }

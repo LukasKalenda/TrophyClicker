@@ -1,7 +1,7 @@
 <template>
   <div class="shop">
     <div><h3 class="headline">Shop</h3></div>
-
+    <div class="clay"></div>
     <nav>
       <ul>
         <li><img src="../assets/sports-icon/board-game.png" alt="Games" /></li>

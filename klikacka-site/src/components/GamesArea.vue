@@ -2,7 +2,7 @@
   <div class="gamesArea">
     <div><h3 class="headline">Games</h3></div>
     <div class="clay"></div>
-    
+
     <section>
       <span class="level">LVL</span>
       <div>renderovani hracu</div>

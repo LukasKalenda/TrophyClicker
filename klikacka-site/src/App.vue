@@ -75,7 +75,9 @@
     <GamesArea />
     <Shop />
   </main>
-  <Cards />
+  <footer>
+    <Cards />
+  </footer>
 </template>
 
 <script setup>
