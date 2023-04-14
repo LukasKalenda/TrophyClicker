@@ -7,7 +7,7 @@
       <span id="earned-seconds">za sekundu: 4,256</span>
     </aside>
 
-    <section class="">
+    <section>
         <img @click="counterStore.increment" src="../assets/icons/trophy-main.png" alt="Main Trophy/Cup">
     </section>
   </div>
@@ -16,6 +16,7 @@
 <script setup>
 import { useCounterStore } from "../stores/counter.js";
 const counterStore = useCounterStore();
+
 
 </script>
 

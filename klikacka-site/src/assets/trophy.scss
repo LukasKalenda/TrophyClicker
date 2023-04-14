@@ -1,5 +1,6 @@
 .trophy {
     text-align: center;
+    border: 3px solid black;
     .text-back {
         margin-top: 30px;
         span {
@@ -14,5 +15,18 @@
         display: flex;
         flex-direction: column;
         padding: 10px;
+    }
+
+    section {
+        padding-top: 70px;
+
+        img {
+            width: 256px;
+            height: 256px;
+            &:hover {
+                width: 276px;
+                height: 276px;
+            }
+        }
     }
 }

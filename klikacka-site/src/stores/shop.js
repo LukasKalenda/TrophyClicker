@@ -2,8 +2,6 @@ import { ref } from 'vue'
 import { defineStore } from 'pinia'
 import { useCounterStore } from './counter'
 
-
-
 export const useShopStore = defineStore('shop', () => {
     const counterStore = useCounterStore();
 

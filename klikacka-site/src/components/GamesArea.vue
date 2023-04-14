@@ -1,6 +1,6 @@
 <template>
   <div class="gamesArea">
-    <div><h3>Games</h3></div>
+    <div><h3 class="headline">Games</h3></div>
     
     <section>
       <span>LVL</span>
