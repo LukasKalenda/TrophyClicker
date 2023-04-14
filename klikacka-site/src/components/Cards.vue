@@ -3,194 +3,745 @@
     <div class="card-list">
       <article class="card">
         <header class="card-header">
-          <p>Sep 11th 2020</p>
-          <h2>Never forget</h2>
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
         </header>
 
         <div class="card-author">
           <a class="author-avatar" href="#">
-            <img src="avatar.png" />
+            <img src="../assets/players-image/jagr.png" />
           </a>
-          <svg class="half-circle" viewBox="0 0 106 57">
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
             <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
-          </svg>
+          </svg> -->
 
           <div class="author-name">
-            <div class="author-name-prefix">Author</div>
-            Jeff Delaney
+            <div class="player-name">Author</div>
           </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
         </div>
-        <div class="tags">
-          <a href="#">html</a>
-          <a href="#">css</a>
-          <a href="#">web-dev</a>
-        </div>
-      </article>
 
-      <article class="card">
-        <header class="card-header">
-          <p>Sep 11th 2020</p>
-          <h2>Card Tricks are fun!</h2>
-        </header>
-
-        <div class="card-author">
-          <a class="author-avatar" href="#">
-            <img src="https://api.adorable.io/avatars/172/a.png" />
-          </a>
-          <svg class="half-circle" viewBox="0 0 106 57">
-            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
-          </svg>
-
-          <div class="author-name">
-            <div class="author-name-prefix">Pirate</div>
-            Zheng Zhilong
-          </div>
-        </div>
-        <div class="tags">
-          <a href="#">html</a>
-          <a href="#">css</a>
-        </div>
-      </article>
-<article class="card">
-        <header class="card-header">
-          <p>Sep 11th 2020</p>
-          <h2>Card Tricks are fun!</h2>
-        </header>
-
-        <div class="card-author">
-          <a class="author-avatar" href="#">
-            <img src="https://api.adorable.io/avatars/172/a.png" />
-          </a>
-          <svg class="half-circle" viewBox="0 0 106 57">
-            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
-          </svg>
-
-          <div class="author-name">
-            <div class="author-name-prefix">Pirate</div>
-            Zheng Zhilong
-          </div>
-        </div>
-        <div class="tags">
-          <a href="#">html</a>
-          <a href="#">css</a>
-        </div>
       </article>
       <article class="card">
         <header class="card-header">
-          <p>Sep 11th 2020</p>
-          <h2>Card Tricks are fun!</h2>
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
         </header>
 
         <div class="card-author">
           <a class="author-avatar" href="#">
-            <img src="https://api.adorable.io/avatars/172/b.png" />
+            <img src="../assets/players-image/jagr.png" />
           </a>
-          <svg class="half-circle" viewBox="0 0 106 57">
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
             <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
-          </svg>
+          </svg> -->
 
           <div class="author-name">
-            <div class="author-name-prefix">Pirate</div>
-            Francis Drake
+            <div class="player-name">Author</div>
           </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
         </div>
-        <div class="tags">
-          <a href="#">html</a>
-          <a href="#">css</a>
-        </div>
-      </article>
-      <article class="card">
+
+      </article> <article class="card">
         <header class="card-header">
-          <p>Sep 11th 2020</p>
-          <h2>Card Tricks are fun!</h2>
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
         </header>
 
         <div class="card-author">
           <a class="author-avatar" href="#">
-            <img src="https://api.adorable.io/avatars/172/a.png" />
+            <img src="../assets/players-image/jagr.png" />
           </a>
-          <svg class="half-circle" viewBox="0 0 106 57">
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
             <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
-          </svg>
+          </svg> -->
 
           <div class="author-name">
-            <div class="author-name-prefix">Pirate</div>
-            Zheng Zhilong
+            <div class="player-name">Author</div>
           </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
         </div>
-        <div class="tags">
-          <a href="#">html</a>
-          <a href="#">css</a>
-        </div>
-      </article><article class="card">
+
+      </article> <article class="card">
         <header class="card-header">
-          <p>Sep 11th 2020</p>
-          <h2>Card Tricks are fun!</h2>
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
         </header>
 
         <div class="card-author">
           <a class="author-avatar" href="#">
-            <img src="https://api.adorable.io/avatars/172/a.png" />
+            <img src="../assets/players-image/jagr.png" />
           </a>
-          <svg class="half-circle" viewBox="0 0 106 57">
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
             <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
-          </svg>
+          </svg> -->
 
           <div class="author-name">
-            <div class="author-name-prefix">Pirate</div>
-            Zheng Zhilong
+            <div class="player-name">Author</div>
           </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
         </div>
-        <div class="tags">
-          <a href="#">html</a>
-          <a href="#">css</a>
-        </div>
-      </article><article class="card">
+
+      </article> <article class="card">
         <header class="card-header">
-          <p>Sep 11th 2020</p>
-          <h2>Card Tricks are fun!</h2>
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
         </header>
 
         <div class="card-author">
           <a class="author-avatar" href="#">
-            <img src="https://api.adorable.io/avatars/172/a.png" />
+            <img src="../assets/players-image/jagr.png" />
           </a>
-          <svg class="half-circle" viewBox="0 0 106 57">
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
             <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
-          </svg>
+          </svg> -->
 
           <div class="author-name">
-            <div class="author-name-prefix">Pirate</div>
-            Zheng Zhilong
+            <div class="player-name">Author</div>
           </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
         </div>
-        <div class="tags">
-          <a href="#">html</a>
-          <a href="#">css</a>
-        </div>
-      </article><article class="card">
+
+      </article> <article class="card">
         <header class="card-header">
-          <p>Sep 11th 2020</p>
-          <h2>Card Tricks are fun!</h2>
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
         </header>
 
         <div class="card-author">
           <a class="author-avatar" href="#">
-            <img src="https://api.adorable.io/avatars/172/a.png" />
+            <img src="../assets/players-image/jagr.png" />
           </a>
-          <svg class="half-circle" viewBox="0 0 106 57">
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
             <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
-          </svg>
+          </svg> -->
 
           <div class="author-name">
-            <div class="author-name-prefix">Pirate</div>
-            Zheng Zhilong
+            <div class="player-name">Author</div>
           </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
         </div>
-        <div class="tags">
-          <a href="#">html</a>
-          <a href="#">css</a>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
         </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
+      </article> <article class="card">
+        <header class="card-header">
+          <div class="attack lvl-back">7</div>
+          <div class="defense lvl-back">8</div>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="../assets/players-image/jagr.png" />
+          </a>
+          <!-- <svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg> -->
+
+          <div class="author-name">
+            <div class="player-name">Author</div>
+          </div>
+          <p class="player-text">Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve štychu</p>
+        </div>
+
       </article>
     </div>
   </section>

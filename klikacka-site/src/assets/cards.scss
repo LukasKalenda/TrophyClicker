@@ -2,7 +2,6 @@
     max-width: 80vw;
     position: absolute;
     bottom: 0;
-    height: 12vh;
 }
 .card-list {
     display: flex;
@@ -26,8 +25,8 @@
 
 
 .card {
-    height: 210px;
-    width: 240px;
+    height: 190px;
+    width: 220px;
     padding: 1.5rem;
     border-radius: 16px;
     background: #17141d;
@@ -56,8 +55,18 @@
 
 
 .card-header {
-    margin-bottom: auto;
+    display: flex;
+    justify-content: space-between;
     background-image: none;
+
+    .lvl-back {
+        background-color: #ff8a00;
+        border-radius: 3px;
+        padding: 5px;
+    }
+    .attack {
+        background-color: #c51717;
+    }   
 }
 
 .card-header p {
@@ -85,25 +94,21 @@
 }
 
 .card-author {
-    margin: 3rem 0 0;
-    display: grid;
-    grid-template-columns: 75px 1fr;
+    
+    display: flex;
+    flex-direction: column;
     align-items: center;
     position: relative;
 }
 
 .author-avatar {
-    grid-area: auto;
-    align-self: start;
-    position: relative;
-    box-sizing: border-box;
+
 }
 
 .author-avatar img {
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
-    filter: grayscale(100%);
     display: block;
     overflow: hidden;
     margin: 16px 10px;
@@ -114,12 +119,18 @@
     box-sizing: border-box;
 }
 
-.author-name-prefix {
+.player-name {
     font-style: normal;
     font-weight: 700;
     color: #7a7a8c;
 }
-
+.player-text {
+    padding-top: 5px;
+    text-align: center;
+    max-width: 100%;
+    max-height: 50px;
+    overflow: hidden;
+}
 .half-circle {
     position: absolute;
     bottom: 0;
@@ -131,34 +142,4 @@
     stroke-width: 8;
     stroke-linecap: round;
     pointer-events: none;
-}
-
-.tags {
-    margin: 1rem 0 2rem;
-    padding: .5rem 0 1rem;
-    line-height: 2;
-    margin-bottom: 0;
-}
-
-.tags a {
-    font-style: normal;
-    font-weight: 700;
-    font-size: .5rem;
-    color: #7a7a8c;
-    text-transform: uppercase;
-    font-size: .66rem;
-    border: 3px solid #28242f;
-    border-radius: 2rem;
-    padding: .2rem .85rem .25rem;
-    position: relative;
-}
-
-.tags a:hover {
-    background: linear-gradient(90deg, #ff8a00, #e52e71);
-    text-shadow: none;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    -webkit-box-decoration-break: clone;
-    background-clip: text;
-    border-color: white;
 }
