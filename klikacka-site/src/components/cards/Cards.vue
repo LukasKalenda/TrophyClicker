@@ -1,9 +1,9 @@
 <template>
-  <section class="card-content">
+  <section class="card-content" v-for="player in playerStore.activePlayers" :key="player">
     <div class="card-list">
       <article class="card">
         <header class="card-header">
-          <div class="attack lvl-back"> {{ playerStore.players.jagr.attack }}</div>
+          <div class="attack lvl-back"> {{ player.attack }}</div>
           <div class="card-position">Útočník</div>
           <div class="defense lvl-back">8</div>
         </header>
