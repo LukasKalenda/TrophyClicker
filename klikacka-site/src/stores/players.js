@@ -2,7 +2,7 @@ import { ref } from 'vue'
 import { defineStore } from 'pinia'
 import { useCounterStore } from './counter'
 
-export const useShopStore = defineStore('shop', () => {
+export const usePlayerStore = defineStore('player', () => {
     const counterStore = useCounterStore();
     
     state: () => ({
@@ -11,5 +11,5 @@ export const useShopStore = defineStore('shop', () => {
             {id: 2, name: 'Dominik Hašek', attack: 1, defense: 10, description: "Dominátor svým postřehem zachytí všechny puky, které se mu dostanou do cesty"},
         ]
     })
-    return { players }
+    return { players, counterStore }
 })
