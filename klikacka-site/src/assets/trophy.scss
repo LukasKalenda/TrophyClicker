@@ -3,7 +3,7 @@
     .text-back {
         margin-top: 30px;
         span {
-            
+            font-family: 'Dancing Script', cursive;
             padding: 10px 30px;
             background-color: rgba(47, 65, 42, 0.5);
             border-radius: 20px;
@@ -14,6 +14,24 @@
         display: flex;
         flex-direction: column;
         padding: 10px;
+        background-color: rgba(43, 42, 42, 0.7);
+        margin-top: 22px;
+
+        #points {
+            font-size: 2.3rem;
+            font-weight: bold;
+        }
+        #earned {
+            font-size: 1.3rem;
+            font-weight: 500;
+            padding: 3px;
+        }
+        #earned-seconds {
+            font-size: 1rem;
+            font-weight: 300;
+            padding: 3px;
+            color: rgb(175, 180, 185);
+        }
     }
 
     section {

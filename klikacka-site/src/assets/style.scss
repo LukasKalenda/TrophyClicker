@@ -1,7 +1,3 @@
-.mobile-nav {
-    display: none;
-}
-
 .absolute {
     position: static;
     bottom: 0;
@@ -31,11 +27,10 @@
         background-image: url("./backgrounds/header-back.png");
 
         div ul {
-            display: flex;
-            list-style: none;
 
             h1 {
                 padding: 0 10px;
+
                 &::before {
                     content: "";
                     // position: absolute;
@@ -45,6 +40,7 @@
                     // height: 20px;
                     // margin-right: 5px;
                 }
+
                 a {
                     text-decoration: none;
                     color: #fff;
@@ -63,6 +59,9 @@
                     text-decoration: none;
                     color: #fff;
                 }
+            }
+            .mobile-nav {
+                display: none;
             }
         }
 
@@ -128,7 +127,7 @@ footer {
 @media screen and (max-width: 768px) {
     ul.mobile-nav {
         display: flex;
-
+        flex-direction: row;
         .nav-icon {
             width: 20px;
             height: 20px;
@@ -139,7 +138,19 @@ footer {
         display: none;
     }
 
-    .shop, .gamesArea {
+
+
+    main {
+        flex-direction: column;
+        height: 100vh;
+
+        &>* {
+            width: 100%;
+        }
+    }
+
+    .shop,
+    .gamesArea {
         display: none;
     }
 }

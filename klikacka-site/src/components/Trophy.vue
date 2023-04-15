@@ -3,7 +3,7 @@
     <div class="text-back"><span>Továrna na pohárky</span></div>
     <aside>
       <span id="points">{{ counterStore.count }}</span>
-      <span id="earned">tisíc pohárků</span>
+      <span id="earned">{{ counterStore.units }} pohárků</span>
       <span id="earned-seconds">za sekundu: 4,256</span>
     </aside>
 

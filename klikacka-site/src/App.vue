@@ -7,6 +7,7 @@
           <h1>Trophy Clicker</h1>
         </ul>
       </div>
+      
       <nav>
         <ul class="desktop">
           <li>
