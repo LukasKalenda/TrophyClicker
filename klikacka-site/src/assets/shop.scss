@@ -34,11 +34,34 @@
             justify-content: space-between;
             align-items: center;
             padding: 5px 10px;
-
+            &:hover {
+                filter: brightness(1.2);
+            }
             .game-text {
                 display: flex;
                 flex-direction: column;
-                
+                font-family: "Poppins", sans-serif;
+
+                .game-title {
+                    font-size: 20px;
+                    font-weight: 450;
+                }
+                .game-cost {
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #7a7a8c;
+                    &::before {
+                        content: "";
+                        display: flex;
+                        flex-direction: column;
+                        margin-right: 8px;
+                        background-image: url("./icons/trophy-main.png");
+                        background-size: cover;
+                        width: 20px;
+                        height: 20px;
+                        margin-right: 5px;
+                    }
+                }
                 .game-cost {
 
                     &::before {
@@ -48,8 +71,10 @@
             }
 
             .items-earned {
-                padding-right: 5px;
-
+                padding-right: 15px;
+                font-size: 28px;
+                font-weight: 400;
+                color: #7a7a8c;
             }
         }
     }

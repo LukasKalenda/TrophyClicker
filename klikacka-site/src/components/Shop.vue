@@ -6,21 +6,23 @@
       <ul>
         <li><img src="../assets/sports-icon/board-game.png" alt="Games" /></li>
         <li><img src="../assets/sports-icon/referee.png" alt="Referee" /></li>
-        <li><img src="../assets/sports-icon/sport.png" alt="Sport equipment" /></li>
+        <li>
+          <img src="../assets/sports-icon/sport.png" alt="Sport equipment" />
+        </li>
         <li><img src="../assets/sports-icon/laundry.png" alt="" /></li>
       </ul>
     </nav>
 
     <div class="divider"></div>
 
-    <section class="items" v-for="item in shopStore.items" :key="item">
-      <div class="item-background"> {{ item.price }}
+    <section class="items">
+      <div class="item-background">
         <div class="item-icon">
           <img src="../assets/sports-icon/basket.png" alt="" />
         </div>
         <div class="game-text">
-          <p class="game-title">{{ item.title }}</p>
-          <p class="game-cost">{{ }}k</p>
+          <p class="game-title">Football</p>
+          <p class="game-cost">basfasf</p>
         </div>
         <div class="items-earned">15</div>
       </div>
@@ -29,10 +31,8 @@
 </template>
 
 <script setup>
-import { useShopStore } from '../stores/shop';
+import { useShopStore } from "../stores/shop";
 const shopStore = useShopStore();
-
-
 </script>
 
 <style lang="scss" scoped></style>

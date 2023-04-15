@@ -79,6 +79,7 @@
 .headline {
     font-size: 2.5rem;
     text-align: center;
+    margin: 10px 0;
 }
 
 .divider {
@@ -95,15 +96,6 @@ main {
     position: relative;
     &>* {
         width: 33.33%;
-    }
-
-    &::after {
-        content: "";
-        display: block;
-        height: 70px;
-        background-image: url("../assets/backgrounds/clay-border.png");
-        background-repeat: no-repeat;
-        background-position: center bottom;
     }
 }
 
