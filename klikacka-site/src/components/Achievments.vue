@@ -16,7 +16,7 @@
 
 <style lang="scss" scoped>
 .achievement-bar {
-  display: flex;
+  display: none;
   flex-direction: row;
   align-items: center;
   position: absolute;
