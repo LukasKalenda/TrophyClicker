@@ -18,7 +18,7 @@
                 alt="Statistics icon"
             /></router-link>
           </li>
-          <li>
+          <li @click="playerStore.getCard">
             <router-link :to="{ name: 'settings' }">
               <img
                 class="nav-icon"
@@ -93,6 +93,10 @@ import Shop from "./components/Shop.vue";
 
 import Cards from "./components/cards/Cards.vue";
 import Achievments from "./components/Achievments.vue";
+
+//Pinia
+import { usePlayerStore } from "./stores/players";
+const playerStore = usePlayerStore();	
 </script>
 
 <style scoped></style>

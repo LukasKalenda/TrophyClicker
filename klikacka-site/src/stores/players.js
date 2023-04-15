@@ -14,6 +14,7 @@ export const usePlayerStore = defineStore("players", () => {
       defense: 4,
       description:
         "Legendární útočník, který tě při sbírání pohárků nenechá ve štychu",
+        src: "../../assets/players-image/jagr.png",
     },
     hasek: {
       id: 2,
@@ -34,20 +35,23 @@ export const usePlayerStore = defineStore("players", () => {
   });
 
   function getCard() {
-    const random = Math.floor(Math.random() * 3)
+    const random = Math.floor(Math.random() * 3 + 1)
     switch(random) {
         case 1:
-        activePlayers.push(this.players.jagr) 
+        activePlayers.value.push(this.players.jagr)
+        console.log(this.players.jagr) 
         break
         case 2:
-        activePlayers.push(this.players.hasek)
+        activePlayers.value.push(this.players.hasek)
+        console.log("Hasek") 
         break
         case 3:
-        activePlayers.push(this.players.kvitova)
+        activePlayers.value.push(this.players.kvitova)
+        console.log("Kvitova") 
         break
     }
   }
   const activePlayers = ref([
   ])
-  return { players, counterStore, getCard, };
+  return { players, counterStore, getCard, activePlayers};
 });

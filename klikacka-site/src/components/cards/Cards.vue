@@ -1,27 +1,31 @@
 <template>
-  <section class="card-content" v-for="player in playerStore.activePlayers" :key="player">
+  <section class="card-content">
     <div class="card-list">
-      <article class="card">
+      <article
+        class="card"
+        v-for="player in playerStore.activePlayers"
+        :key="player"
+      >
         <header class="card-header">
-          <div class="attack lvl-back"> {{ player.attack }}</div>
-          <div class="card-position">Útočník</div>
-          <div class="defense lvl-back">8</div>
+          <div class="attack lvl-back">{{ player.attack }}</div>
+          <div class="card-position">{{ player.position }}</div>
+          <div class="defense lvl-back">{{ player.defense }}</div>
         </header>
 
         <div class="card-author">
           <a class="author-avatar" href="#">
-            <img src="../../assets/players-image/jagr.png" />
+            <!-- <img :src="player.src" /> -->
+            <img src="../../assets/players-image/jagr.png" alt="">
           </a>
           <!-- <svg class="half-circle" viewBox="0 0 106 57">
             <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
           </svg> -->
 
           <div class="author-name">
-            <div class="player-name">Jarga Jágr</div>
+            <div class="player-name">{{ player.name }}</div>
           </div>
           <p class="player-text">
-            Legendární útočník, který tě při sbírání pohárků royhodně nenechá ve
-            štychu
+            {{ player.description }}
           </p>
         </div>
       </article>
@@ -31,8 +35,7 @@
 
 <script setup>
 import { usePlayerStore } from "../../stores/players";
-const playerStore = usePlayerStore();	
-
+const playerStore = usePlayerStore();
 </script>
 
 <style lang="scss" scoped></style>
