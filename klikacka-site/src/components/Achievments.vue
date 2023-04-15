@@ -51,4 +51,14 @@
     font-size: 16px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .achievement-bar {
+    position: absolute;
+    bottom: 250px;
+    width: 90%;
+    margin: 0 auto;
+    right: 0;
+  }
+}
 </style>
