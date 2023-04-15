@@ -91,7 +91,7 @@ import Trophy from "./components/Trophy.vue";
 import GamesArea from "./components/GamesArea.vue";
 import Shop from "./components/Shop.vue";
 
-import Cards from "./components/Cards.vue";
+import Cards from "./components/cards/Cards.vue";
 import Achievments from "./components/Achievments.vue";
 </script>
 

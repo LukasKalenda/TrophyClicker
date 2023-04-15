@@ -3,14 +3,14 @@
     <div class="card-list">
       <article class="card">
         <header class="card-header">
-          <div class="attack lvl-back">7</div>
+          <div class="attack lvl-back"> {{ playerStore.players.jagr.attack }}</div>
           <div class="card-position">Útočník</div>
           <div class="defense lvl-back">8</div>
         </header>
 
         <div class="card-author">
           <a class="author-avatar" href="#">
-            <img src="../assets/players-image/jagr.png" />
+            <img src="../../assets/players-image/jagr.png" />
           </a>
           <!-- <svg class="half-circle" viewBox="0 0 106 57">
             <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
@@ -30,7 +30,7 @@
 </template>
 
 <script setup>
-import { usePlayerStore } from "../stores/players";
+import { usePlayerStore } from "../../stores/players";
 const playerStore = usePlayerStore();	
 
 </script>

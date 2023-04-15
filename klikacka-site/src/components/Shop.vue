@@ -33,6 +33,7 @@
 <script setup>
 import { useShopStore } from "../stores/shop";
 const shopStore = useShopStore();
+
 </script>
 
 <style lang="scss" scoped></style>

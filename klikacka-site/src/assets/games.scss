@@ -1,9 +1,23 @@
 .gamesArea {
     position: relative;
-    padding: 0 10px;
-    border-right: 15px solid #14e02f;
-    border-left: 15px solid #14e02f;
-
+    // border-right: 15px solid #14e02f;
+    // border-left: 15px solid #14e02f;
+    &::before {
+        position: absolute;
+        content: "";
+        background-image: url("../assets/backgrounds/clay-border.png");
+        width: 15px;
+        height: 92vh;
+    }
+    &::after {
+        position: absolute;
+        content: "";
+        background-image: url("../assets/backgrounds/clay-border.png");
+        width: 15px;
+        top: 0;
+        right: 0;
+        height: 92vh;
+    }
     section {
         margin-top: 25px;
         padding: 10px;
