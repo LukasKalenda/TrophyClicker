@@ -21,6 +21,7 @@ export const useCounterStore = defineStore("counter", () => {
   }
 
   // Jednotky za kliknutí
+  // Chybí dělitelnost
   watch(count, () => {
     if (count.value < 1000) {
       units.value = "";

@@ -3,17 +3,9 @@
     padding: 0 10px;
     border-right: 15px solid #14e02f;
     border-left: 15px solid #14e02f;
-    .clay::after {
-        position: absolute;
-        content: "";
-        background-image: url("../assets/backgrounds/clay-border.png");
-        background-size: cover;
-        width: 100%;
-        height: 12px;
-
-    }
 
     section {
+        margin-top: 25px;
         padding: 10px;
         height: 145px;
         background-image: url("../assets/game-areas/vector-football-soccer-field.png");
@@ -24,4 +16,12 @@
         align-items: center;
         justify-content: space-between
     }
+}
+.clay::after {
+    position: absolute;
+    content: "";
+    background-image: url("../assets/backgrounds/clay-border.png");
+    background-size: cover;
+    width: 100%;
+    height: 12px;
 }

@@ -1,5 +1,5 @@
 .card-content {
-    max-width: 80vw;
+    max-width: 74vw;
     position: absolute;
     bottom: 0;
 }
@@ -38,6 +38,7 @@
     scroll-snap-align: start;
     clear: both;
     position: relative;
+    border: 1px solid #444346;
 }
 
 .card:focus-within~.card,
