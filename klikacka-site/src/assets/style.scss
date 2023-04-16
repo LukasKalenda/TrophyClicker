@@ -85,7 +85,9 @@
     height: 3px;
     background-color: #000;
 }
-
+.brightness {
+    filter: brightness(0.74);
+}
 main {
     display: flex;
     width: 100vw;
