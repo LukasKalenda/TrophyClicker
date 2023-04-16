@@ -16,7 +16,7 @@
 
 <style lang="scss" scoped>
 .achievement-bar {
-  display: none;
+  display: flex;
   flex-direction: row;
   align-items: center;
   position: absolute;
@@ -59,6 +59,11 @@
     width: 90%;
     margin: 0 auto;
     right: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1364px) {
+  .achievement-bar {
+    display: none;
   }
 }
 </style>

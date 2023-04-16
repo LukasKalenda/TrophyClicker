@@ -20,9 +20,9 @@
     <section class="items" v-for="(item, index) in shopStore.shopItems" :key="item" @click="shopStore.buyItem(index)">
       <div class="item-background">
         <div class="item-icon">
-          <img src="../assets/sports-icon/basket.png" alt="" />
+          <!-- <img src="../assets/sports-icon/basket.png" alt="" /> -->
           <!-- Proc to nefunguje? :() -->
-          <!-- <img :src="'../assets/sports-icon/' + item.img" alt="" /> -->
+          <img v-bind:src="item.img" alt="" />
         </div>
         <div class="game-text">
           <p class="game-title">{{ item.title }}</p>

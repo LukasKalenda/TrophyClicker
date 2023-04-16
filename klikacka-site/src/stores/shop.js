@@ -11,7 +11,7 @@ export const useShopStore = defineStore("shop", () => {
       title: "Fotbal",
       price: 30,
       earned: 0,
-      img: "football.png",
+      img: "../assets/sports-icon/football.png",
     },
     basketball: {
       id: 2,
@@ -21,15 +21,21 @@ export const useShopStore = defineStore("shop", () => {
       img: "basket.png",
     },
     hokej: { id: 3, title: "Hokej", price: 19256, earned: 0, img: "puck.png" },
-    secret: { id: 4, title: "??????????", price: "???????", earned: 0, img: "ghost.png" },
-
+    secret: {
+      id: 4,
+      title: "??????????",
+      price: 111155,
+      earned: 0,
+      img: "ghost.png",
+    },
   });
   const fotball = ref(10);
 
+  //   Jeste nefunguje
   function buyItem(item) {
     if (counterStore.count >= item.price) {
       counterStore.count -= item;
-      item.earned++
+      item.earned++;
     }
   }
   return { counterStore, shopItems, fotball, buyItem };
