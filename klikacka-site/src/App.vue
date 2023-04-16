@@ -10,7 +10,7 @@
       
       <nav>
         <ul class="desktop">
-          <li>
+          <li @click="playerStore.getCard">
             <router-link :to="{ name: 'stats' }"
               ><img
                 class="nav-icon"
@@ -18,7 +18,7 @@
                 alt="Statistics icon"
             /></router-link>
           </li>
-          <li @click="playerStore.getCard">
+          <li>
             <router-link :to="{ name: 'settings' }">
               <img
                 class="nav-icon"

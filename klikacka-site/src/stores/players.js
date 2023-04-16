@@ -4,7 +4,7 @@ import { useCounterStore } from "./counter";
 
 export const usePlayerStore = defineStore("players", () => {
   const counterStore = useCounterStore();
-  
+
   const activePlayers = ref([]);
   const players = reactive({
     jagr: {
@@ -86,6 +86,37 @@ export const usePlayerStore = defineStore("players", () => {
         break;
     }
   }
-  
-  return { players, counterStore, getCard, activePlayers };
+
+  const bingo = ref([
+    {
+      id: 1,
+      question: "Jaký klub v NHL hrál největší část své kariéry Jaromir Jagr",
+      correct: "Pittsburgh Penguins",
+      all: [
+        "New York Rangers",
+        "New Jersey Devils",
+        "Washington Capitals",
+        "Pittsburgh Penguins",
+      ],
+    },
+    {
+      id: 2,
+      question: "Jaký klub v NHL hrál největší část své kariéry Dominik Hašek",
+      correct: "Detroit Red Wings",
+      all: [
+        "Detroit Red Wings",
+        "Buffalo Sabres",
+        "New York Rangers",
+        "Boston Bruins",
+      ],
+    },
+    {
+      id: 3,
+      question:
+        "Která soutěž v tenise Petra Kvitova vyhrála dvakrát, v roce 2011 a 2014",
+      correct: "Wimbledon",
+      all: ["Wimbledon", "Australian Open", "US Open", "French Open"],
+    },
+  ]);
+  return { players, counterStore, getCard, activePlayers, bingo };
 });
