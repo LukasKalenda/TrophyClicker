@@ -12,19 +12,23 @@
         <li><img src="../assets/sports-icon/laundry.png" alt="" /></li>
       </ul>
     </nav>
-
+    <!-- <div class="shop-motivation">
+      <p>Obchůdek se vším možným herním vybavením</p>
+    </div> -->
     <div class="divider"></div>
 
-    <section class="items">
+    <section class="items" v-for="(item, index) in shopStore.shopItems" :key="item" @click="shopStore.buyItem(index)">
       <div class="item-background">
         <div class="item-icon">
           <img src="../assets/sports-icon/basket.png" alt="" />
+          <!-- Proc to nefunguje? :() -->
+          <!-- <img :src="'../assets/sports-icon/' + item.img" alt="" /> -->
         </div>
         <div class="game-text">
-          <p class="game-title">Football</p>
-          <p class="game-cost">basfasf</p>
+          <p class="game-title">{{ item.title }}</p>
+          <p class="game-cost">{{ item.price }}</p>
         </div>
-        <div class="items-earned">15</div>
+        <div class="items-earned"> {{ item.earned }}</div>
       </div>
     </section>
   </div>
@@ -33,7 +37,6 @@
 <script setup>
 import { useShopStore } from "../stores/shop";
 const shopStore = useShopStore();
-
 </script>
 
 <style lang="scss" scoped></style>

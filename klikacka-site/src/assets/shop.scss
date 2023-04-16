@@ -26,13 +26,18 @@
             }
         }
     }
-
+    .shop-motivation {
+        padding: 10px 0;
+        background-color: rgba(4, 2, 3, 0.4);
+    }
     section.items {
+        margin: 2px;
+        border: 2px solid rgb(218, 214, 209);
         .item-background {
             background-image: url("./backgrounds/item-background.png");
             background-size: cover;
             display: flex;
-            justify-content: space-between;
+            
             align-items: center;
             padding: 5px 10px;
             &:hover {
@@ -42,7 +47,8 @@
                 display: flex;
                 flex-direction: column;
                 font-family: "Poppins", sans-serif;
-
+                padding-left: 25px;
+                
                 .game-title {
                     font-size: 20px;
                     font-weight: 450;
@@ -72,10 +78,13 @@
             }
 
             .items-earned {
+                position: absolute;
+                right: 10px;
                 padding-right: 15px;
                 font-size: 28px;
                 font-weight: 400;
                 color: #7a7a8c;
+                float: right;
             }
         }
     }

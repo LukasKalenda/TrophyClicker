@@ -4,7 +4,7 @@
     <aside>
       <span id="points">{{ counterStore.count }}</span>
       <span id="earned">{{ counterStore.units }} pohárků</span>
-      <span id="earned-seconds">za sekundu: 4,256</span>
+      <span id="earned-seconds">za sekundu: {{ counterStore.points_per_click}}</span>
     </aside>
 
     <section>

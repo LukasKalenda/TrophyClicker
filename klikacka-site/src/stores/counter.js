@@ -6,7 +6,7 @@ export const useCounterStore = defineStore("counter", () => {
 
   const points_per_click = ref(1);
   const base_points_per_click = ref(1);
-  const level = ref(1500);
+  const level = ref(15);
 
   const count = ref(0);
   const units = ref("");
@@ -17,7 +17,7 @@ export const useCounterStore = defineStore("counter", () => {
       base_points_per_click.value * Math.sqrt(level.value)
     );
     count.value += points_per_click.value;
-    audio.play();
+    // audio.play();
   }
 
   // Jednotky za kliknutí
