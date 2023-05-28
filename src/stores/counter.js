@@ -2,7 +2,11 @@ import { ref, watch } from "vue";
 import { defineStore } from "pinia";
 import { useLocalStorage } from '@vueuse/core';
 
+import { usePlayerStore } from "./players";
+
 export const useCounterStore = defineStore("counter", () => {
+  const playerStore = usePlayerStore();
+
   const audio = new Audio("../assets/sounds/click-1.wav");
 
   const points_per_click = ref(1);
@@ -19,6 +23,13 @@ export const useCounterStore = defineStore("counter", () => {
     );
     count.value += points_per_click.value;
     // audio.play();
+
+    //spusteni nahodne binga
+    if(Math.floor(Math.random() * 5) == 3) {
+      let display = document.querySelector(".bingo-container");
+      display.style.display = "block";
+      playerStore.randomBingo();
+    }
   }
 
   // Jednotky za kliknutí
@@ -42,6 +53,7 @@ export const useCounterStore = defineStore("counter", () => {
   //AFK currency
   
   return {
+    playerStore,
     audio,
     points_per_click,
     base_points_per_click,

@@ -3,14 +3,14 @@
     <div class="bingo">
       <h2>Bingo!</h2>
       <div class="bingo-question">
-        {{ playerStore.bingo[playerStore.randomBingo].question }}
+        {{ playerStore.bingo[playerStore.bingoNumber].question }}
       </div>
       <div class="bingo-query">
         <div
           class="query-item"
           @click="
             handleItemClick(index)"
-          v-for="(item, index) in playerStore.bingo[playerStore.randomBingo]
+          v-for="(item, index) in playerStore.bingo[playerStore.bingoNumber]
             .query"
           :key="index"
         >
@@ -32,25 +32,28 @@ function handleItemClick(index) {
   let display = document.querySelector(".bingo-container");
   let rightElement = document.querySelector(
     ".query-item:nth-child(" +
-      (playerStore.bingo[playerStore.randomBingo].correct + 1) +
+      (playerStore.bingo[playerStore.bingoNumber].correct + 1) +
       ")"
   );
-  if (index == playerStore.bingo[playerStore.randomBingo].correct) {
+  if (index == playerStore.bingo[playerStore.bingoNumber].correct) {
     playerStore.getCard();
     element.style.backgroundColor = "green";
-    setTimeout(() => {
-    display.style.display = "none";
-  }, 2000);
-  } else if (index != playerStore.bingo[playerStore.randomBingo].correct) {
+  } else if (index != playerStore.bingo[playerStore.bingoNumber].correct) {
     element.style.backgroundColor = "red";
     rightElement.style.backgroundColor = "green";
   } else console.log("Chyba v kartickach");
+
+  setTimeout(() => {
+    display.style.display = "none";
+    element.style.backgroundColor = "rgb(82, 172, 172)";
+    rightElement.style.backgroundColor = "rgb(82, 172, 172)";
+  }, 2000);
 }
 
 //coundown timer
 // startCountdown(
 //                 Math.floor(
-//                   playerStore.bingo[playerStore.randomBingo].question.length / 8
+//                   playerStore.bingo[playerStore.bingoNumber].question.length / 8
 //                 )
 //               )
 
@@ -72,11 +75,12 @@ function startCountdown(seconds) {
 
 <style lang="scss" scoped>
 .bingo-container {
+  display: none;
   width: 60vw;
   height: 40vh;
   background-color: #fff;
   color: #000;
-  border: 1px solid #ccc;
+  border: 6px solid #805015;
   filter: opacity(0.95);
   border-radius: 5px;
   padding: 20px;
@@ -94,7 +98,7 @@ function startCountdown(seconds) {
     }
     .bingo-question {
       padding: 15px;
-      font-size: 2rem;
+      font-size: calc(0.8rem + 1vw);
     }
     .bingo-query {
       display: flex;
@@ -104,8 +108,9 @@ function startCountdown(seconds) {
 
       .query-item {
         padding: 10px;
-        font-size: 1.5rem;
-        background-color: aquamarine;
+        font-size: calc(0.6rem + 1vw);
+        background-color: rgb(82, 172, 172);
+        width: 30%;
       }
     }
   }

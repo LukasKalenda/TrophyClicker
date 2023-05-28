@@ -15,7 +15,7 @@ export const usePlayerStore = defineStore("players", () => {
       defense: 4,
       description:
         "Legendární útočník, který tě při sbírání pohárků nenechá ve štychu",
-      // src: "../../assets/players-image/jagr.png",
+      src: "jagr.png",
     },
     hasek: {
       id: 2,
@@ -25,6 +25,7 @@ export const usePlayerStore = defineStore("players", () => {
       defense: 10,
       description:
         "Dominátor svým postřehem zachytí všechny puky, které se mu dostanou do cesty",
+      src: "hasek.jpeg",
     },
     kvitova: {
       id: 3,
@@ -32,6 +33,7 @@ export const usePlayerStore = defineStore("players", () => {
       attack: 9,
       defense: 4,
       description: "Její údery jsou smrtící pro zachytávání herní měny.",
+      src: "kvitova.jpg"
     },
     rosicky: {
       id: 4,
@@ -40,6 +42,7 @@ export const usePlayerStore = defineStore("players", () => {
       attack: 8,
       defense: 3,
       description: "Nejsem jen hráč z papíru",
+      src: "rosicky.jpeg"
     },
     berdych: {
       id: 5,
@@ -47,6 +50,7 @@ export const usePlayerStore = defineStore("players", () => {
       attack: 8,
       defense: 5,
       description: "Můj servis ti získá všechny možné odměny",
+      src: "berdych.jpg"
     },
     pastrnak: {
       id: 6,
@@ -54,6 +58,7 @@ export const usePlayerStore = defineStore("players", () => {
       attack: 9,
       defense: 4,
       description: "Budu mít tolik pohárků, jako bodů v NHL",
+      src: "pastrnak.jpg"
     },
   });
 
@@ -86,10 +91,10 @@ export const usePlayerStore = defineStore("players", () => {
         break;
     }
   }
-
+  let bingoNumber = ref(0);
   const bingo = ref([
     {
-      question: "Jaký klub v NHL hrál největší část své kariéry Jaromir Jagr?",
+      question: "V jakém klubu NHL hrál největší část své kariéry Jaromir Jagr?",
       correct: 3,
       query: [
         "New York Rangers",
@@ -99,7 +104,7 @@ export const usePlayerStore = defineStore("players", () => {
       ],
     },
     {
-      question: "Jaký klub v NHL hrál největší část své kariéry Dominik Hašek?",
+      question: "V jakém klubu NHL hrál největší část své kariéry Dominik Hašek?",
       correct: 0,
       query: [
         "Detroit Red Wings",
@@ -110,12 +115,16 @@ export const usePlayerStore = defineStore("players", () => {
     },
     {
       question:
-        "Která soutěž v tenise Petra Kvitova vyhrála dvakrát, v roce 2011 a 2014?",
+        "Kterou soutěž v tenise Petra Kvitova vyhrála dvakrát, v roce 2011 a 2014?",
       correct: 0,
       query: ["Wimbledon", "Australian Open", "US Open", "French Open"],
     },
   ]);
-  const randomBingo = Math.floor(Math.random() * bingo.value.length);
+  
+  function randomBingo() {
+      bingoNumber.value = Math.floor(Math.random() * bingo.value.length);
+      console.log("Bingo" + Math.floor(Math.random() * bingo.value.length))
+  }
 
-  return { players, counterStore, getCard, activePlayers, bingo, randomBingo };
+  return { players, counterStore, getCard, activePlayers, bingo, bingoNumber, randomBingo};
 });
