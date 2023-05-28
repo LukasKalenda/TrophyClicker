@@ -6,7 +6,15 @@
         {{ playerStore.bingo[playerStore.randomBingo].question }}
       </div>
       <div class="bingo-query">
-        <div class="query-item" >Detroit Red Wings</div>
+        <div
+          class="query-item"
+          @click="handleItemClick(index)"
+          v-for="(item, index) in playerStore.bingo[playerStore.randomBingo]
+            .query"
+          :key="index"
+        >
+          {{ item }}
+        </div>
       </div>
     </div>
   </section>
@@ -15,6 +23,29 @@
 <script setup>
 import { usePlayerStore } from "../../stores/players";
 const playerStore = usePlayerStore();
+
+function handleItemClick(index) {
+  let element = document.querySelector(
+    ".query-item:nth-child(" + (index + 1) + ")"
+  );
+  let display = document.querySelector(".bingo-container");
+  let rightElement = document.querySelector(
+    ".query-item:nth-child(" +
+      (playerStore.bingo[playerStore.randomBingo].correct + 1) +
+      ")"
+  );
+  if (index == playerStore.bingo[playerStore.randomBingo].correct) {
+    playerStore.getCard();
+    element.style.backgroundColor = "green";
+  } else if (index != playerStore.bingo[playerStore.randomBingo].correct) {
+    element.style.backgroundColor = "red";
+    rightElement.style.backgroundColor = "green";
+  } else console.log("Chyba v kartickach");
+
+  setTimeout(() => {
+    display.style.display = "none";
+  }, 2000);
+}
 </script>
 
 <style lang="scss" scoped>
@@ -37,18 +68,18 @@ const playerStore = usePlayerStore();
     padding: 10px;
     width: 100%;
     h2 {
-        font-size: 2rem;
+      font-size: 2rem;
     }
     .bingo-question {
-        padding: 15px;
-        font-size: 2rem;
+      padding: 15px;
+      font-size: 2rem;
     }
     .bingo-query {
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
-        gap: 25px;
-        
+      gap: 25px;
+
       .query-item {
         padding: 10px;
         font-size: 1.5rem;

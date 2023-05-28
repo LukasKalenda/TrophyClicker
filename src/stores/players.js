@@ -89,7 +89,7 @@ export const usePlayerStore = defineStore("players", () => {
 
   const bingo = ref([
     {
-      question: "Jaký klub v NHL hrál největší část své kariéry Jaromir Jagr",
+      question: "Jaký klub v NHL hrál největší část své kariéry Jaromir Jagr?",
       correct: 3,
       query: [
         "New York Rangers",
@@ -99,7 +99,7 @@ export const usePlayerStore = defineStore("players", () => {
       ],
     },
     {
-      question: "Jaký klub v NHL hrál největší část své kariéry Dominik Hašek",
+      question: "Jaký klub v NHL hrál největší část své kariéry Dominik Hašek?",
       correct: 0,
       query: [
         "Detroit Red Wings",
@@ -110,12 +110,12 @@ export const usePlayerStore = defineStore("players", () => {
     },
     {
       question:
-        "Která soutěž v tenise Petra Kvitova vyhrála dvakrát, v roce 2011 a 2014",
+        "Která soutěž v tenise Petra Kvitova vyhrála dvakrát, v roce 2011 a 2014?",
       correct: 0,
       query: ["Wimbledon", "Australian Open", "US Open", "French Open"],
     },
   ]);
-  const randomBingo = Math.floor(Math.random() * 3);
+  const randomBingo = Math.floor(Math.random() * bingo.value.length);
 
   return { players, counterStore, getCard, activePlayers, bingo, randomBingo };
 });
