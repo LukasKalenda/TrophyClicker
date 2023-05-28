@@ -1,5 +1,6 @@
 import { ref, watch } from "vue";
 import { defineStore } from "pinia";
+import { useLocalStorage } from '@vueuse/core';
 
 export const useCounterStore = defineStore("counter", () => {
   const audio = new Audio("../assets/sounds/click-1.wav");
@@ -35,6 +36,11 @@ export const useCounterStore = defineStore("counter", () => {
       units.value = "biliónů";
     }
   });
+
+  //LocalStorage
+
+  //AFK currency
+  
   return {
     audio,
     points_per_click,

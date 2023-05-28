@@ -99,7 +99,7 @@ main {
     width: 100vw;
     height: 92vh;
     position: relative;
-    &>* {
+    & >* {
         width: 33.33%;
     }
 }

@@ -7,7 +7,7 @@
           <h1>Trophy Clicker</h1>
         </ul>
       </div>
-      
+
       <nav>
         <ul class="desktop">
           <li @click="playerStore.getCard">
@@ -76,6 +76,7 @@
     <GamesArea />
     <Shop />
   </main>
+  <Bingo />
   <!-- FOOTER + CARDS -->
   <footer>
     <Cards />
@@ -91,12 +92,14 @@ import Trophy from "./components/Trophy.vue";
 import GamesArea from "./components/GamesArea.vue";
 import Shop from "./components/Shop.vue";
 
+import Bingo from "./components/cards/Bingo.vue";
+
 import Cards from "./components/cards/Cards.vue";
 import Achievments from "./components/Achievments.vue";
 
 //Pinia
 import { usePlayerStore } from "./stores/players";
-const playerStore = usePlayerStore();	
+const playerStore = usePlayerStore();
 </script>
 
 <style scoped></style>
