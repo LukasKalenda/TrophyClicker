@@ -123,7 +123,6 @@ export const usePlayerStore = defineStore("players", () => {
   
   function randomBingo() {
       bingoNumber.value = Math.floor(Math.random() * bingo.value.length);
-      console.log("Bingo" + Math.floor(Math.random() * bingo.value.length))
   }
 
   return { players, counterStore, getCard, activePlayers, bingo, bingoNumber, randomBingo};

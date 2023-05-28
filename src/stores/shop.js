@@ -29,14 +29,13 @@ export const useShopStore = defineStore("shop", () => {
       img: "ghost.png",
     },
   });
-  const fotball = ref(10);
 
-  //   Jeste nefunguje
+  // Jeste nefunguje
   function buyItem(item) {
     if (counterStore.count >= shopItems.item.price) {
       counterStore.count -= shopItems.item.price;
       item.earned++;
     }
   }
-  return { counterStore, shopItems, fotball, buyItem };
+  return { counterStore, shopItems, buyItem };
 });

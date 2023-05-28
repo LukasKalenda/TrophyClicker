@@ -17,7 +17,6 @@
 import { useCounterStore } from "../stores/counter.js";
 const counterStore = useCounterStore();
 
-
 </script>
 
 <style lang="scss" scoped>
