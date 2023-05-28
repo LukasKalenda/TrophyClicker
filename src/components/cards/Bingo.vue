@@ -8,7 +8,8 @@
       <div class="bingo-query">
         <div
           class="query-item"
-          @click="handleItemClick(index)"
+          @click="
+            handleItemClick(index)"
           v-for="(item, index) in playerStore.bingo[playerStore.randomBingo]
             .query"
           :key="index"
@@ -37,14 +38,35 @@ function handleItemClick(index) {
   if (index == playerStore.bingo[playerStore.randomBingo].correct) {
     playerStore.getCard();
     element.style.backgroundColor = "green";
+    setTimeout(() => {
+    display.style.display = "none";
+  }, 2000);
   } else if (index != playerStore.bingo[playerStore.randomBingo].correct) {
     element.style.backgroundColor = "red";
     rightElement.style.backgroundColor = "green";
   } else console.log("Chyba v kartickach");
+}
 
-  setTimeout(() => {
+//coundown timer
+// startCountdown(
+//                 Math.floor(
+//                   playerStore.bingo[playerStore.randomBingo].question.length / 8
+//                 )
+//               )
+
+function startCountdown(seconds) {
+  let countdownInterval = setInterval(function() {
+    if (seconds <= 0) {
+      clearInterval(countdownInterval);
+      console.log("Časový odpočet skončil!");
+      console.log("Další obsah po odpočtu...");
+    } else {
+      console.log("Zbývá " + seconds + " sekund.");
+      seconds--;
+    }
+    let display = document.querySelector(".bingo-container");
     display.style.display = "none";
-  }, 2000);
+  }, 1000);
 }
 </script>
 

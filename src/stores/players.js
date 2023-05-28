@@ -74,15 +74,15 @@ export const usePlayerStore = defineStore("players", () => {
         break;
       case 4:
         activePlayers.value.push(this.players.rosicky);
-        console.log("Kvitova");
+        console.log("Rosicky");
         break;
       case 5:
         activePlayers.value.push(this.players.berdych);
-        console.log("Kvitova");
+        console.log("Berdych");
         break;
       case 6:
         activePlayers.value.push(this.players.pastrnak);
-        console.log("Kvitova");
+        console.log("Pastrnak");
         break;
     }
   }
