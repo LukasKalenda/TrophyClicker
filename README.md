@@ -10,8 +10,9 @@ Hra byla inspirována již existující, Coockiu clicker: https://orteil.dashnet
 Tato hra se zaměřuje na sportovní tématiku. Uživatel zde kliká na trofej, která mu přidává pohárky. Za tuto měnu si může dokupovat různá sportovní hřiště, která opět přispívají k nárůstu kreditu.
 Během hry na něj průběžně vyskakují tzv. Bingo, které obsahuje otázku s variacemi 4 možných odpovědí. Pokud uživatel v omezeném čase odpoví správně (možnost vyhledávání na externích zdrojích zamezena), je mu přidána náhodně kartička s známým sportovcem.
 
-Hru je možno nalézt na stránkách: https://trophyclicker.com/
-                                  trophyclicker.netlify.app
+Hru je možno nalézt na stránkách: 
+https://trophyclicker.com/
+trophyclicker.netlify.app 
                                   
 ---------
 
